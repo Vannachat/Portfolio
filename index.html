@@ -366,8 +366,6 @@ html[lang="th"] .stat span{letter-spacing:0}
 #detail:not([hidden]){animation:detail-enter .44s cubic-bezier(.2,.85,.2,1) both}
 @keyframes detail-enter{from{opacity:0;transform:translateY(13px)}to{opacity:1;transform:translateY(0)}}
 .motion-enabled .motion-item{opacity:0;transform:translateY(28px);transition:transform .65s cubic-bezier(.2,.85,.2,1),opacity .65s ease;transition-delay:0s}
-/* Keep project cards visible even if scroll-reveal fails or does not trigger. */
-.motion-enabled #pg .motion-item{opacity:1;transform:none}
 .motion-enabled .motion-item.motion-in{opacity:1;transform:translateY(0)}
 .motion-enabled #pg .card:nth-child(2n){transition-delay:.09s}
 .motion-enabled .stat:nth-child(2){transition-delay:.08s}.motion-enabled .stat:nth-child(3){transition-delay:.16s}
